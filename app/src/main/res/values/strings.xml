@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">rt600-sygna-mobile</string>
+    <string name="camera_permission_title">A câmera precisa ver você</string>
+    <string name="camera_permission_body">O primeiro passo é marcar rosto, tronco e mãos. A tradução de LIBRAS para texto vem depois.</string>
+    <string name="camera_permission_button">Permitir câmera</string>
+    <string name="camera_permission_settings">Abrir configurações</string>
 </resources>

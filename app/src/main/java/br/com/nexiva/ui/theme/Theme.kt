@@ -33,6 +33,10 @@ private val LightColorScheme = lightColorScheme(
     */
 )
 
+/**
+ * Aparência do app: claro, escuro ou a cor do sistema.
+ * Não entra na câmera nem na detecção do corpo.
+ */
 @Composable
 fun Rt600sygnamobileTheme(
     darkTheme: Boolean = isSystemInDarkTheme(),
