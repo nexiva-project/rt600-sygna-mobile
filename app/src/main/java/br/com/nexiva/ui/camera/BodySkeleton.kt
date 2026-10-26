@@ -39,11 +39,10 @@ internal object BodySkeleton {
         115 to 48, 48 to 64, 64 to 98,
     )
 
-    val upperBody = listOf(
-        11 to 12,
-        11 to 23,
-        12 to 24,
-        23 to 24,
+    /** Linha entre o ombro esquerdo (11) e o direito (12). */
+    val shoulders = listOf(11 to 12)
+
+    val arms = listOf(
         11 to 13,
         13 to 15,
         12 to 14,
