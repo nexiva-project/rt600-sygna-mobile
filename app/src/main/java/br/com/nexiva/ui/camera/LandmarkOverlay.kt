@@ -11,7 +11,7 @@ import br.com.nexiva.detection.BodyTrack
 import br.com.nexiva.detection.NormPoint
 
 /**
- * Desenha rosto, tronco e mãos por cima do vídeo.
+ * Desenha rosto, ombro e mãos por cima do vídeo.
  * Só pinta o [BodyTrack]. Não abre a câmera e não roda o modelo.
  */
 @Composable
