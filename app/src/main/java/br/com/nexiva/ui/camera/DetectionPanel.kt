@@ -16,7 +16,7 @@ import androidx.compose.ui.unit.dp
 import br.com.nexiva.detection.BodyTrack
 
 /**
- * Mostra se rosto, tronco e mãos foram encontrados neste quadro.
+ * Mostra se rosto, ombro e mãos foram encontrados neste quadro.
  * Não desenha os pontos e não decide a detecção: só lê [BodyTrack].
  */
 @Composable
@@ -43,7 +43,7 @@ fun DetectionPanel(
         )
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             StatusChip("Rosto", track?.faceDetected == true, BodyColors.face)
-            StatusChip("Tronco", track?.torsoDetected == true, BodyColors.torso)
+            StatusChip("Ombro", track?.torsoDetected == true, BodyColors.torso)
         }
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             StatusChip("Mão esquerda", track?.leftHandDetected == true, BodyColors.leftHand)
