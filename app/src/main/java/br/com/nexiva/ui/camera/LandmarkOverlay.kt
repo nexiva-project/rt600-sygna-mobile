@@ -38,14 +38,14 @@ fun LandmarkOverlay(
         drawConnections(
             current.posePoints,
             BodySkeleton.shoulders,
-            BodyColors.torso,
+            BodyColors.ombro,
             ::map,
             requireVisible = true,
         )
         drawConnections(
             current.posePoints,
             BodySkeleton.arms,
-            BodyColors.torso,
+            BodyColors.ombro,
             ::map,
             requireVisible = true,
         )

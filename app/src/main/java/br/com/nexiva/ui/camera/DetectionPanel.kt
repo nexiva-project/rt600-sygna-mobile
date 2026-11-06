@@ -43,7 +43,7 @@ fun DetectionPanel(
         )
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             StatusChip("Rosto", track?.faceDetected == true, BodyColors.face)
-            StatusChip("Ombro", track?.torsoDetected == true, BodyColors.torso)
+            StatusChip("Ombro", track?.torsoDetected == true, BodyColors.ombro)
         }
         Row(horizontalArrangement = Arrangement.spacedBy(8.dp)) {
             StatusChip("Mão esquerda", track?.leftHandDetected == true, BodyColors.leftHand)
