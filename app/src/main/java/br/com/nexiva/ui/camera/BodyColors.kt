@@ -8,7 +8,7 @@ import androidx.compose.ui.graphics.Color
  */
 internal object BodyColors {
     val face = Color(0xFF2CEBFF)
-    val torso = Color(0xFFFFD54F)
+    val ombro = Color(0xFFFFD54F)
     val leftHand = Color(0xFF81C784)
     val rightHand = Color(0xFFCE93D8)
     val panel = Color(0xCC101418)
